@@ -1,0 +1,71 @@
+
+#All-Products{
+    width: 100%;
+    padding: 30px 100px;
+}
+#All-Products h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#All-Products .container{
+    position: relative;
+    width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+margin-top: 50px;
+row-gap: 50px;
+column-gap: 50px;
+}
+#All-Products .container .product-boxes{
+    padding: 20px;
+    width: 300px;
+    color: #fff;
+    background-color: #1434e6;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 1px #121212;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#All-Products .container .product-boxes h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+#All-Products .container .product-boxes h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+#All-Products .container .product-boxes .Review-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+#All-Products .container .product-boxes .Review-box h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+#All-Products .container .product-boxes .Review-box span{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+#All-Products .container .product-boxes h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#All-Products .container .product-boxes h3 span {
+    font-size: 20px;
+    font-weight: 600;
+}
+#All-Products .container .product-boxes img{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+}
+

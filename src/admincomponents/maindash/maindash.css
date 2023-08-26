@@ -1,0 +1,25 @@
+.maindash{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: rgb(3, 50, 150);
+    padding: 1rem;
+}
+.maindash h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width: 1200px){
+    .maindash{
+        justify-content: flex-start;
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 770px){
+    .maindash{
+        justify-content: center;
+    }
+}

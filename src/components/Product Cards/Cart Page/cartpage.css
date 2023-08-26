@@ -1,0 +1,13 @@
+.table{
+    width: 100%;
+}
+.Cartpage{
+    padding: 30px 70px;
+
+}
+.Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

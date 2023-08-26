@@ -1,0 +1,23 @@
+
+#footer{
+    width: 100%;
+    cursor: pointer;
+    padding: 3px 50px;
+    margin-top: 70px;
+    height: 50px;
+    background-color: #1434e6;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#footer h2{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#footer h2 span{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}

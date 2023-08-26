@@ -1,0 +1,76 @@
+
+#limit-choice{
+    position: relative;
+    width: 100%;
+    padding:10px 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+#limit-choice .highlight{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#limit-choice .highlight h1{
+    color:#1434e6 ;
+    font-size: 50px;
+    font-weight: 700;
+}
+#limit-choice .highlight h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+#limit-choice .highlight p{
+    padding: 20px 80px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #121212;
+}
+#limit-choice .highlight .btn2{
+    padding: 7px 25px ;
+    border-radius: 5px;
+    border: none;
+    background-color: #01000a;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0px 3px 5px 1px rgba(18, 18, 18,0.8);
+}
+#limit-choice .highlight img{
+    margin-top: 10px;
+    width: 50%;
+    transform: rotateZ(10deg);
+    transition: 0.3s ease-in-out;
+}
+#limit-choice .highlight img:hover{
+    transform: rotateZ(0deg);
+}
+@media (max-width:750px){
+    #limit-choice .highlight img {
+        width: 70%;
+    }
+}
+
+@media (max-width:500px) {
+    #limit-choice .highlight p {
+        padding: 20px 0px;
+    }
+    #limit-choice .highlight img {
+        width: 100%;
+    }
+    #popular-Sales .popularSales-box .popular {
+        position: relative;
+        max-width: 470px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #popular-Sales .popularSales-box .popular .img {
+        width: 60%;
+    }
+    #popular-Sales .popularSales-box .popular .content h1 {
+        font-size: 35px;
+    }
+}

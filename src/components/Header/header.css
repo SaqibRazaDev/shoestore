@@ -1,0 +1,86 @@
+/* .header{
+    z-index: 200;
+    width: 100%;
+    background:rgb(20, 52, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    position: fixed;
+}
+.header .logo{
+    width: 150px;
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header ul li{
+    position: relative;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header ul li .link{
+    text-decoration: none;
+    color: #fff;
+}
+.header ul li::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    background: #fff;
+    transition: 0.5s ease-in-out;
+}
+.header ul li:hover::before{
+    width: 100%;
+}
+.header ul input{
+    padding: 7px 20px;
+    border-radius: 15px;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+.header ul .icons{
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+
+
+.cart{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+} */
+.cunttag {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    background-color: black;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.count{
+    position: relative;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}

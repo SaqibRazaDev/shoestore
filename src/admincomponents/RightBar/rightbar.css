@@ -1,0 +1,14 @@
+.rightbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgb(0, 0, 66);
+    padding: 0.5rem 1rem;
+}
+
+@media (max-width: 1200px){
+    .rightbar{
+        justify-content: flex-start;
+        padding-top: 2rem;
+    }
+}

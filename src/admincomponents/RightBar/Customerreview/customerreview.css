@@ -1,0 +1,10 @@
+.CustomerReview h2{
+    font-size: 1.5rem ;
+    font-weight: 600;
+    color: white;
+}
+@media (max-width: 1200px){
+    .CustomerReview h2{
+        /* font-size: 1.3rem; */
+    }
+}

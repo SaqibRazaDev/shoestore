@@ -1,0 +1,102 @@
+
+#popular-Sales{
+    width: 100%;
+    padding: 40px 50px;
+}
+#popular-Sales h1{
+    font-size: 40px;
+}
+#popular-Sales .popularSales-box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+#popular-Sales .popularSales-box .popular{
+    position: relative;
+    max-width: 470px;
+    /* height: 160px; */
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 2px rgba(20, 52, 230,0.8);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgb(20, 52, 230),rgb(37, 87, 196));
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+#popular-Sales .popularSales-box .popular:hover{
+    transform: translateY(-10px);
+    /* transform: scale(1); */
+}
+#popular-Sales .popularSales-box .popular:nth-child(2){
+    background: #d60521;
+    box-shadow: 0px 5px 10px 2px rgba(231, 23, 51,0.7);
+}
+#popular-Sales .popularSales-box .popular:nth-child(3){
+    background: #6143a0;
+    box-shadow: 0px 5px 10px 2px rgba(64, 46, 102,0.7);
+}
+#popular-Sales .popularSales-box .popular .content {
+    position: relative;
+    /* flex-basis: 60%; */
+    margin: 25px 20px;
+}
+#popular-Sales .popularSales-box .popular .content h1{
+    font-size: 22px;
+}
+#popular-Sales .popularSales-box .popular .content h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#popular-Sales .popularSales-box .popular .content .Review-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    margin: 5px 0px;
+}
+#popular-Sales .popularSales-box .popular .content .Review-box h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#popular-Sales .popularSales-box .popular .content .Review-box span {
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    /* color: black;
+    padding: 4px; */
+    /* background-color: #fff; */
+    border-radius: 20px;
+}
+#popular-Sales .popularSales-box .popular .content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#popular-Sales .popularSales-box .popular .content h3 span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#popular-Sales .popularSales-box .popular .img{
+    width: 50%;
+     position: relative;
+}
+#popular-Sales .popularSales-box .popular .img img{
+    position: relative;
+    left: -20px;
+    top: 5px;
+    width: 150%;
+    transform: rotateZ(-35deg);
+    margin-left: 20px;
+}
